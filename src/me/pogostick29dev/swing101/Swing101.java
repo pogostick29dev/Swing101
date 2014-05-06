@@ -13,7 +13,7 @@ public class Swing101 {
 		frame.setResizable(false);
 		frame.setLocationRelativeTo(null);
 		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-		frame.setBackground(Color.CYAN);
+		frame.getContentPane().setBackground(Color.CYAN);
 		frame.setVisible(true);
 	}
 
